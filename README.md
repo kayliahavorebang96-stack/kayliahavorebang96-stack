@@ -29,6 +29,17 @@ Plateforme qui met en relation les organisateurs d'événements (mariages, anniv
 
 ## 📊 Projets Data
 
+### Equitera — audit éthique du recrutement automatisé *(projet universitaire)*
+> *« Un algorithme peut trier. Seul un humain peut décider. »*
+
+Prototype d'outil RH qui contrôle un algorithme de tri de CV pour garantir que chaque refus automatique est validé par un humain, en conformité avec le **RGPD** et l'**AI Act** (qui classe le tri de CV comme système à haut risque).
+- **Pilotage :** tableaux de bord interactifs (taux de refus par poste, carte des biais, score de conformité, évolution sur 3 mois glissants)
+- **Contrôle humain :** audit des règles de tri (critères interdits, suspects ou légitimes), file de revue des refus, journal des décisions pour la traçabilité
+- **Analyse d'équité femmes/hommes :** taux de sélection avec intervalles de confiance de Wilson, règle des quatre cinquièmes, test du khi-deux et test exact de Fisher, comparaison avant et après revue humaine
+- **Conformité RGPD :** suivi de la durée de conservation des CV et purge des données expirées
+- **Outils :** HTML, CSS, JavaScript, Google Sheets, Make (automatisation), 4 profils utilisateurs (admin, direction RH, responsable recrutement, recruteur)
+- 🔗 [**Voir la démo**](https://kayliahavorebang96-stack.github.io/equitera/) · [code source](https://github.com/kayliahavorebang96-stack/equitera) — *données fictives*
+
 ### Partenariats stratégiques dans l'IA : quel impact boursier sur le CAC 40 ?
 Étude d'événement (méthode de MacKinlay, 1997) mesurant la réaction du cours des entreprises du CAC 40 à l'annonce d'un partenariat en intelligence artificielle.
 - **Méthode :** modèle de marché par régression, rendements anormaux cumulés (CAR/CAAR), test de Student au seuil de 5 %
@@ -63,13 +74,17 @@ Tableau de bord interactif de 7 pages pour piloter l'activité d'un réseau de t
 
 ## 🌍 Engagement
 
-**Jeune ambassadrice UNICEF** — sensibilisation des jeunes aux droits de l'enfant et à l'engagement citoyen.
+**Jeune ambassadrice UNICEF**
+- 🏛️ **Organisation d'un Model United Nations (MUN) :** participation à la réalisation d'une simulation des Nations Unies, où les participants jouent le rôle de diplomates pour débattre d'un enjeu international
+- 🎨 **Communication :** création d'affiches et de visuels pour promouvoir les actions et les événements, dont le carrousel « Qu'est-ce qu'un Model United Nations ? »
+- 📣 **Sensibilisation :** actions auprès des jeunes sur les droits de l'enfant et l'engagement citoyen
 
 ---
 
 ## 🛠️ Compétences
 
-**Data & BI :** Power BI · DAX · Power Query · Excel · statistiques (régression, tests d'hypothèse)
+**Data & BI :** Power BI · DAX · Power Query · Excel · Google Sheets · statistiques (régression, tests d'hypothèse, analyse d'équité)
+**Automatisation & conformité :** Make · RGPD · AI Act
 **Communication & design :** Canva · création de supports visuels
 **Entrepreneuriat :** conception produit · étude de marché · pitch
 
